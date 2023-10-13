@@ -4,7 +4,7 @@ const context = canvas.getContext("2d");
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
-context.lineWidth = 10; // Reduced the line width for better visibility
+context.lineWidth = 13; // Reduced the line width for better visibility
 
 canvas.addEventListener("click", onRectangleClick);
 
